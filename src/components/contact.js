@@ -11,12 +11,12 @@ class Contact extends Component {
       <div>
         <Grid>
           <Cell className="left-col" col={4}>
-            
+
 
             <h1 style={{paddingTop: '2em'}}>Contact</h1>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <SocialIcon rel="noopener noreferrer" target="_blank" url="https://www.linkedin.com/in/simran-singhuoftcs/" />
-            <Button> <a href="https://github.com/SimranS224/personalsite/blob/master/src/content/SimranSinghResume.pdf" rel="noopener noreferrer" target="_blank">Resume</a></Button>
+            <Button> <a href="https://github.com/SimranS224/SimranSingh/content/SimranSinghResume.pdf" rel="noopener noreferrer" target="_blank">Resume</a></Button>
             <SocialIcon rel="noopener noreferrer" target="_blank" url="https://github.com/SimranS224" />
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
@@ -30,9 +30,9 @@ class Contact extends Component {
               school="University of Toronto"
               Description="Pursuing Computer Science Specialist with a focus in artificial intelligence, minor in statistics"
                />
-               
+
                 <hr style={{borderTop: '3px solid #e22947'}} />
-              
+
               <h2>Skills</h2>
               <Skills
                 skill="Python"
