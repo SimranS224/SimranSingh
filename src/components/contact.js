@@ -27,8 +27,8 @@ class Contact extends Component {
             <Education
               startYear={2017}
               endYear={2021}
-              schoolName="University of Toronto"
-              schoolDescription="Pursuing Computer Science Specialist with a focus in artificial intelligence, minor in statistics"
+              school="University of Toronto"
+              Description="Pursuing Computer Science Specialist with a focus in artificial intelligence, minor in statistics"
                />
                
                 <hr style={{borderTop: '3px solid #e22947'}} />

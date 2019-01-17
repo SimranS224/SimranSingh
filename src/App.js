@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Header, Navigation,Content, Layout} from 'react-mdl';
-import Main from './components/main'
+import Routepath from './components/route'
 import './App.css';
 import {Link} from "react-router-dom";
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
                 </Header>
                
                 <Content>
-                  <Main/>
+                  <Routepath/>
                 </Content>
             </Layout>
         </div>

@@ -5,7 +5,7 @@ import Contact from './contact';
 import { Switch, Route } from 'react-router-dom'
 
 
- const Main = () => (
+ const Routepath = () => (
   <Switch>
     <Route exact path="/" component={Home}/>
 
@@ -17,4 +17,4 @@ import { Switch, Route } from 'react-router-dom'
   </Switch>
   
  )
-export default Main;
+export default Routepath;
