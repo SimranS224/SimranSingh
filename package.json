@@ -1,9 +1,10 @@
 {
   "name": "simransingh",
-  "homepage": "http://simrans224.github.io/personalsite",
+  "homepage": "https://simransingh22.netlify.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
     "html-material-css": "^0.2.4",
     "material-css": "^0.7.0",
     "materialize-css": "^1.0.0",
@@ -20,8 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"

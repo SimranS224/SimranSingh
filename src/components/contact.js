@@ -17,9 +17,7 @@ class Contact extends Component {
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <SocialIcon rel="noopener noreferrer" target="_blank" url="https://www.linkedin.com/in/simran-singhuoftcs/" />
             {/* <Button> <a href="https://github.com/SimranS224/personalsite/blob/master/src/content/SimranSinghResume.pdf" rel="noopener noreferrer" target="_blank">Resume</a></Button> */}
-            <Button><a rel="noopener noreferrer" target='_blank' href={require('../content/SimranSinghResume.pdf')}>PDF Doc abc</a></Button>
-
-            <header>deowijoifjew</header> 
+            <Button><a rel="noopener noreferrer" target='_blank' href={require('../content/SimranSinghResume.pdf')}>Resume</a></Button>
             {/* <Button> <a href="https://github.com/SimranS224/personalsite/blob/master/src/content/SimranSinghResume.pdf" >Resume</a></Button> */}
 
             <SocialIcon rel="noopener noreferrer" target="_blank" url="https://github.com/SimranS224" />

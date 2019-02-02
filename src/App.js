@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <div style={{height: '1000px', position: 'relative'}}>
             <Layout style={{background: 'url(https://i.imgur.com/jLXHG4P.jpg?1) center / cover'}}>
-                <Header transparent title="" style={{color: 'Blue'}}>
+                <Header font size="18" transparent title="" style={{color: 'Blue'}}>
                     <Navigation>
                         <Link color="blue" to="/">Home</Link>
                         <Link color="blue" to="/projects">Projects</Link>
