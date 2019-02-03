@@ -6,6 +6,7 @@
   "dependencies": {
     "connect-history-api-fallback": "^1.6.0",
     "html-material-css": "^0.2.4",
+    "jquery": "^3.3.1",
     "material-css": "^0.7.0",
     "materialize-css": "^1.0.0",
     "minimatch": "^3.0.4",

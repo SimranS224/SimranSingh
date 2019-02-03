@@ -25,14 +25,15 @@
 
 
 .portrait {
-  height: 350px;
-  position: relative;
-  padding-top: 5em;
+  height: 50%;
+  position: fixed;
+  padding-top: 20%;
   /* -webkit-clip-path: circle(0px at 25% 25%); */
   clip-path: circle(150px at 50% 60%)
 }
 
 .about {
+  position: fixed;
   background-color: black;
   height:20%;
   opacity: .8;
@@ -42,11 +43,13 @@
 }
 
 .about h1 {
+  position: fixed;
   font-size: 40px;
   font-weight: bold;
   color: yellow;
 }
 .about h5 {
+  position: fixed;
   font-size: 40px;
   font-weight: bold;
   color: yellow;
@@ -56,9 +59,11 @@
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
+  position: fixed;
 }
 
 .about p {
+  position: fixed;
   color: white;
   font-size: 20px;
   padding: 1em;
